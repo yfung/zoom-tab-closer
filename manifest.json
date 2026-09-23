@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Zoom Tab Closer",
+  "version": "1.0",
+  "description": "Closes Zoom launcher tabs after the Zoom app opens.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["*://*.zoom.us/*"]
+}
